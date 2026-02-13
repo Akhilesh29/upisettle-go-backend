@@ -1,5 +1,5 @@
 ## UpiSettle (backend)
-- UpiSettle is a backend service that helps small offline merchants (kirana shops, retail stores) reconcile UPI and cash payments against their orders and get a clear end‑of‑day settlement view.
+- UpiSettle is a backend service that helps small offline merchants reconcile UPI and cash payments against their orders and get a clear end‑of‑day settlement view.
   
 ### High-level flow
 

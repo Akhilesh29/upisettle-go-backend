@@ -1,8 +1,6 @@
 ## UpiSettle (backend)
-
-- Go backend to reconcile UPI and cash payments against store orders, so merchants get a clear end-of-day settlement view.
-- Exposes a simple JSON API used by mobile/web clients.
-
+- UpiSettle is a backend service that helps small offline merchants (kirana shops, retail stores) reconcile UPI and cash payments against their orders and get a clear end‑of‑day settlement view.
+  
 ### High-level flow
 
 ```mermaid

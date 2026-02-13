@@ -68,9 +68,7 @@ High-level layers:
   - `internal/reporting`: daily summaries and exception listings.
 - `migrations`: SQL migrations for the relational schema.
 
-The API service is **stateless**; all data is stored in PostgreSQL. This allows horizontal scaling by running multiple instances behind a load balancer.
 
----
 
 
 

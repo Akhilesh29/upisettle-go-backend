@@ -7,15 +7,15 @@
 
 ```mermaid
 flowchart LR
-    C[Customer] -->|UPI / Cash payment| M[Merchant Store]
-    M -->|Creates order| OS[Order Service]
-    UPI[Bank / UPI App] -->|SMS / webhook data| MP[Mobile Parser App]
-    MP -->|Parsed UPI payment event| PS[Payment Service]
-    OS -->|Orders & cash payments| DB[(PostgreSQL)]
-    PS -->|UPI payments| DB
-    RECO[Reconciliation Service] -->|Reads orders & payments| DB
-    RECO --> SUM[Daily Summary & Exceptions]
-    SUM --> OWN[Merchant Owner (mobile/web)]
+    C["Customer"] --> M["Merchant store"]
+    M --> OS["Order service"]
+    UPI["Bank / UPI app"] --> MP["Mobile parser app"]
+    MP --> PS["Payment service"]
+    OS --> DB[(PostgreSQL)]
+    PS --> DB
+    DB --> RECO["Reconciliation service"]
+    RECO --> SUM["Daily summary & exceptions"]
+    SUM --> OWN["Merchant owner app"]
 ```
 
 ---

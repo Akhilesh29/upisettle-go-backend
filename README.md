@@ -18,15 +18,6 @@ flowchart LR
     SUM --> OWN["Merchant owner app"]
 ```
 
----
-
-# UpiSettle Backend (Go)
-
-UpiSettle is a backend service that helps small offline merchants (kirana shops, retail stores) **reconcile UPI and cash payments against their orders** and get a clear end‑of‑day settlement view.
-
-This repository contains the **backend-only** implementation written in Go, designed as a **modular monolith** that is easy to extend and scale.
-
----
 
 ## Features (MVP)
 
